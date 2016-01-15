@@ -17,7 +17,7 @@ namespace Demo1_Teh12
             for (int i = 0; i < 5; i++)
                 test[i]= int.Parse(Console.ReadLine());
             for (int j = 0; j < test.Length; j++)
-                Console.Write(test[j]+",");
+                Console.Write(test[j]+","); ;
 
             Console.ReadLine();
 
